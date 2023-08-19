@@ -1,7 +1,17 @@
+body {
+    margin: 0px;
+}
+
+h1, h2, p {
+    margin: 6px;
+    border:0;
+}
+
 .top {
     background-color: rgb(67, 67, 165);
     display: flex;
     flex-direction: column;
+
 }
 
 .header {
@@ -24,4 +34,30 @@
 
 li {
     list-style: none;
+}
+
+.top-content {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 18px 20%;
+    
+}
+
+.top-content img {
+    height: 130px;
+}
+
+.top-left {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.top-left button {
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+ 
 }
