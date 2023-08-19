@@ -6,10 +6,6 @@ body {
     height: 100%;
 }
 
-.top, .middle-1, .middle-2, .signup-container {
-    flex: 1 1 auto;
-}
-
 h1, h2, p {
     margin: 0px;
     border:0;
@@ -122,7 +118,6 @@ li {
 }
 
 .middle-2 {
-    flex: 1;
     display: flex;
     padding:0 10%;
     flex-direction: column;
@@ -149,7 +144,7 @@ li {
 
 .signup-container-2 {
     background-color: #3882F6;
-    padding: 8px;
+    padding: 8px 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,4 +157,8 @@ li {
     text-align: center;
     color: #E5E7EB;
     font-size: 14px;
+}
+
+.top, .middle-1, .middle-2, .signup-container-1 {
+    flex: 1 1 auto;
 }
