@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1, h2, p {
@@ -47,6 +48,7 @@ li {
     justify-content: center;
     gap: 32px;
     padding: 0px 20% 18px 20%;
+    flex: auto;
 }
 
 .top-content img {
@@ -96,6 +98,9 @@ li {
     align-items: center;
     justify-content: center;
 }
+.middle-1 img {
+    border-radius: 12px;
+}
 
 .middle-1 div {
     text-align: center;
@@ -130,7 +135,7 @@ li {
     justify-content: center;
     align-items: center;
     font-size: 36px;
-    font-style: light-italic;
+    font-weight: light-italic;
     color: #1F2937;
     text-align: center;
 }
