@@ -62,7 +62,7 @@ li {
     gap: 10px;
 }
 
-.top-left h1, .top-left button {
+.top-left h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -84,12 +84,24 @@ li {
     color: #E5E7EB;
 }
 
-.top-left button {
-    background-color: #3882F6;
-    width: 100px;
+button {
+    width: max-content;
     font-size: 18px;
     border-radius: 5px;
     border: none;
+    margin: 4px;
+    padding: 0.5rem 2rem; 
+}
+
+.top-left button {
+    background-color: #3882F6; 
+    color: #F9FAF8;
+}
+
+.signup-container-2 button {
+    background-color: #E5E7EB;
+    color: #3882F6;
+    align-self:flex-end
 }
 
 .middle-1 {
@@ -109,7 +121,7 @@ li {
 
 .middle-1 h2 {
     font-size: 36px; 
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #1F2937;
 }
 
