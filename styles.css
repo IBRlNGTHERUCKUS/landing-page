@@ -43,11 +43,10 @@ li {
 
 .top-content {
     display: flex;
-    padding: 10px;
     align-items: center;
     justify-content: center;
     gap: 32px;
-    padding: 0px 20% 18px 20%;
+    padding: 0px 25% 18px 25%;
     flex: auto;
 }
 
@@ -56,7 +55,6 @@ li {
 }
 
 .top-left {
-    width: 300px;
     display: flex;
     flex-direction: column;
     gap: 10px;
