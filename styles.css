@@ -12,15 +12,6 @@ h1, h2, p {
     border:0;
 }
 
-.top {
-    display: flex;
-    flex-direction: column;
-}
-
-.top, .footer, .header {
-    background-color: #1F2937;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -41,6 +32,14 @@ li {
     list-style: none;
 }
 
+.top, .footer, .header {
+    background-color: #1F2937;
+}
+
+.top, .middle-1, .middle-2, .signup-container-1 {
+    flex: 1 0 300px;
+}
+
 .top-content {
     display: flex;
     align-items: center;
@@ -51,7 +50,7 @@ li {
 }
 
 .top-content img {
-    height: 130px;
+    max-height: 300px;
 }
 
 .top-left {
@@ -181,6 +180,3 @@ button {
     font-size: 14px;
 }
 
-.top, .middle-1, .middle-2, .signup-container-1 {
-    flex: 1 0 300px;
-}
