@@ -71,7 +71,7 @@ li {
 }
 
 .signup-header {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     color: #E5E7EB;
 }
@@ -81,24 +81,11 @@ li {
     color: #E5E7EB;
 }
 
-button {
-    width: max-content;
-    font-size: 18px;
-    border-radius: 5px;
-    border: none;
-    margin: 4px;
-    padding: 0.5rem 2rem; 
-}
-
-.top-left button {
+.top-left button{
     background-color: #3882F6; 
     color: #F9FAF8;
-}
-
-.signup-container-2 button {
-    background-color: #E5E7EB;
-    color: #3882F6;
-    align-self:flex-end
+    border-radius: 5px;
+    padding: 0.1rem 2rem; 
 }
 
 .middle-1 {
@@ -172,6 +159,31 @@ button {
     justify-content: center;
     align-items: center;
     border-radius: 12px;
+    gap: 0.5rem;
+}
+
+.entry-field {
+    display:flex;
+    width: 100%;
+}
+
+#email {
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    flex: 1;
+    padding-left: 1rem;
+
+}
+
+button {
+    width: max-content;
+    font-size: 18px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    margin-left: 0.2rem;
+    padding: 0.1rem 1rem; 
+    background-color: #E5E7EB;
+    color: #3882F6;
 }
 
 .footer {
