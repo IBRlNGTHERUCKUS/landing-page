@@ -109,6 +109,8 @@ button {
 }
 .middle-1 img {
     border-radius: 12px;
+    height: 100px;
+    width: max-content;
 }
 
 .middle-1 div {
@@ -132,7 +134,7 @@ button {
 .images-and-subtext {
    display: flex;
    flex-direction: column;
-   width: 100px;
+   width: min-content;
    margin: 16px;
 }
 
