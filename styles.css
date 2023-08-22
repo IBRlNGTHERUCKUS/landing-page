@@ -97,7 +97,7 @@ li {
 .middle-1 img {
     border-radius: 12px;
     height: 100px;
-    width: max-content;
+    width: auto;
 }
 
 .middle-1 div {
